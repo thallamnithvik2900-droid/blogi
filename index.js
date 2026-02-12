@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 // Import route file from src
-const postsRoutes = require("./src/post");
+const postsRoutes = require("./src/routes/posts.routes");
 
 app.use("/api/v1/posts", postsRoutes);
 
